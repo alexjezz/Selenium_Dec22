@@ -1,0 +1,12 @@
+<suite name="Suite">
+	<test thread-count="2" name="Test" parallel="classes" verbose="5">
+		<classes>
+			<class name="testcase.CreateLead" />
+			<class name="testcase.EditLead" />
+			<class name="testcase.DeleteLead" />
+			<class name="testcase.MergeLead" />
+			<class name="testcase.DuplicateLead" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
